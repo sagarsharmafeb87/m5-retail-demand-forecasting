@@ -9,10 +9,11 @@ Accurate demand forecasting is the foundation of retail planning. It drives:
 - **Open-to-Buy (OTB) budgets** — how much to purchase per category per season
 - **Replenishment decisions** — when and how much stock to move to each store
 - **Inventory redistribution** — rebalancing stock across locations based on forward demand
+- **Supplier PO planning** — aggregating store-level demand to DC and supplier order level
 
 This project builds a production-style demand forecasting pipeline using the M5 Forecasting Competition dataset — 3,049 SKUs across Walmart's CA_1 store, with 5+ years of daily sales history.
 
-The methodology mirrors the demand forecasting engine I built at Landmark Group, where XGBoost models were trained on store-SKU level data to drive replenishment and OTB planning across 50+ retail brands.
+The methodology is grounded in real-world retail experience — having built and deployed demand planning engines across 900+ stores in large-scale retail environments in the GCC.
 
 ---
 
